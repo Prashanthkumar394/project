@@ -1,0 +1,16 @@
+.all {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.all > div {
+    background-color: yellow;
+}
+
+.all > div > img {
+    width: 50%;
+    height: 50%;
+    /* object-fit: contain; */
+}
